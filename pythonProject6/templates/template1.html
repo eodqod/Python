@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h2>템플릿 ID : {{tempid}}</h2>
+    <h2>취미</h2>
+    <ul>
+       {% for x in sports %}
+        <li>{{x}}</li>
+       {% endfor %}
+    </ul>
+    <hr>
+    <ul>
+    {% for key, value in person.items() %}
+        {% if key == 'gender' %}
+            <li> 성별 : {% if value %} 남자 {% else %} 여자 {% endif %} </li>
+            <li>{{ "남자" if value else "여자" }}</li>
+            <li>{{ value and "남자" or "여자" }}</li>
+        {% else %}
+            <li>{{key}} : {{value}}</li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+    <hr>
+    <h2>회원목록</h2>
+    <hr>
+    {% for p in persons %}
+        {% for key, value in p.items() %}
+            {% if key == 'gender' %}
+                {{ value and "남자" or "여자" }})
+            {% elif key=='age' %}
+                ({{value}},
+            {% else %}
+                {{ value }}
+            {% endif %}
+        {% endfor %}
+        <br>
+    {% endfor %}
+</body>
+</html>
