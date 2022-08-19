@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<countries>
+    <korea>
+        <City attr1="값1" attr2="값2">서울</City>
+    </korea>
+    <japanese>
+        <City attr1="값1" attr2="값2">Tokyo</City>
+    </japanese>
+</countries>

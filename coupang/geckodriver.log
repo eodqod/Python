@@ -1,0 +1,62 @@
+1660788326083	geckodriver	INFO	Listening on 127.0.0.1:62284
+1660788448691	geckodriver	INFO	Listening on 127.0.0.1:62303
+1660788672573	geckodriver	INFO	Listening on 127.0.0.1:62506
+1660788675730	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62507" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\human\\AppData\\Local\\Temp\\rust_mozprofileOWEZra"
+1660788676455	Marionette	INFO	Marionette enabled
+1660788676463	Marionette	INFO	Listening on port 62517
+WebDriver BiDi listening on ws://localhost:62507
+Read port: 62517
+1660788677093	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\human\\AppData\\Local\\Temp\\rust_mozprofileOWEZra\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62507/devtools/browser/5edf407a-df40-4e44-acf0-6889bd49f609
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.coupang.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.coupang.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://login.coupang.com/Ltbd/q4Ua/r/Q/jk2MvgXg/hap12Vmp7w/JU5qJG86HAQ/a3IwB/kksRG0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1660788708073	Marionette	INFO	Stopped listening on port 62517
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1660788930751	geckodriver	INFO	Listening on 127.0.0.1:62612
+1660788933819	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62613" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\human\\AppData\\Local\\Temp\\rust_mozprofileEn5mlx"
+1660788934469	Marionette	INFO	Marionette enabled
+1660788934477	Marionette	INFO	Listening on port 62622
+WebDriver BiDi listening on ws://localhost:62613
+Read port: 62622
+1660788934739	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\human\\AppData\\Local\\Temp\\rust_mozprofileEn5mlx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62613/devtools/browser/dba129c4-e406-4051-86ea-0ac4dd9f04c1
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.coupang.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.coupang.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://login.coupang.com/Ltbd/q4Ua/r/Q/jk2MvgXg/hap12Vmp7w/JU5qJG86HAQ/a3IwB/kksRG0, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1660788989614	Marionette	INFO	Stopped listening on port 62622
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1660789010495	geckodriver	INFO	Listening on 127.0.0.1:62681
+1660789013538	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62682" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\human\\AppData\\Local\\Temp\\rust_mozprofileEFwgrc"
+1660789014344	Marionette	INFO	Marionette enabled
+1660789014353	Marionette	INFO	Listening on port 62691
+WebDriver BiDi listening on ws://localhost:62682
+Read port: 62691
+1660789014637	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\human\\AppData\\Local\\Temp\\rust_mozprofileEFwgrc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62682/devtools/browser/cd269013-21c2-4610-ac9f-995edbe82d4a
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.coupang.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.coupang.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1660789018777	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1660789075490	Marionette	INFO	Stopped listening on port 62691
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1660789084426	geckodriver	INFO	Listening on 127.0.0.1:62735
+1660789087495	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62736" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\human\\AppData\\Local\\Temp\\rust_mozprofileHXgcE5"
+1660789088087	Marionette	INFO	Marionette enabled
+1660789088093	Marionette	INFO	Listening on port 62745
+WebDriver BiDi listening on ws://localhost:62736
+Read port: 62745
+1660789088333	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\human\\AppData\\Local\\Temp\\rust_mozprofileHXgcE5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62736/devtools/browser/671e12ea-7aab-433e-b5f4-4b41cceb2b0b
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.coupang.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://login.coupang.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1660789092874	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1660789291445	Marionette	INFO	Stopped listening on port 62745
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

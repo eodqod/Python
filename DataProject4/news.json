@@ -1,0 +1,31 @@
+{
+  'title': '尹, 이준석 질문에 원론적 답변 "민생 매진하느라…"',
+  'title_detail': {
+    'type': 'text/plain',
+    'language': None,
+    'base': 'https://rss.hankyung.com/feed/headline.xml',
+    'value': '尹, 이준석 질문에 원론적 답변 "민생 매진하느라…"'
+  },
+  'links': [
+    {
+      'rel': 'alternate',
+      'type': 'text/html',
+      'href': 'https://www.hankyung.com/politics/article/2022081787117?rss=r'
+    }
+  ],
+  'link': 'https://www.hankyung.com/politics/article/2022081787117?rss=r',
+  'authors': [
+    {}
+  ],
+  'author': '',
+  'published': 'Wed, 17 Aug 2022 11:06:27 +0900',
+  'published_parsed': time.struct_time(tm_year=2022,
+  tm_mon=8,
+  tm_mday=17,
+  tm_hour=2,
+  tm_min=6,
+  tm_sec=27,
+  tm_wday=2,
+  tm_yday=229,
+  tm_isdst=0)
+}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>나의 홈페이지</title>
+  <style>
+  header {
+    background-color : silver; padding:10px; text-align:right; font-weight:bold;
+  }
+  footer {
+    background-color : silver; padding:10px; text-align:center; font-weight:bold;
+  }
+  body { margin:0px;}
+  </style>
+</head>
+<body>
+  <header>
+    <a href="{% url 'home' %}">Home</a> |
+    <a href="{% url 'about' %}">About</a> |
+    <a href="{% url 'some' %}">Some</a>
+  </header>
+
+  {% block content %} {% endblock content %}
+
+  <footer>
+    <p>Copyright © 2018 tcpschool.co.,Ltd. All rights reserved.</p>
+    <address>Contact webmaster for more information. 070-1234-5678</address>
+  </footer>
+</body>
+</html>
